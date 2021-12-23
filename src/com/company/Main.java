@@ -13,17 +13,10 @@ public class Main {
         X = 6;
         e = 8;
 
-        int result1 = x + y - a / 2 * (x + w);
-        System.out.println(result1);
-
-        int result2 = a * (x + x) / y - a * 3;
-        System.out.println(result2);
-
-        int result3 = a + b / x - y;
-        System.out.println(result3);
-
-        int result4 = X - e / 2 % e + 1;
-        System.out.println(result4);
+        System.out.println(x + y - a / 2 * (x + w));
+        System.out.println(a * (x + x) / y - a * 3);
+        System.out.println(a + b / x - y);
+        System.out.println(X - e / 2 % e + 1);
 
 
     }
